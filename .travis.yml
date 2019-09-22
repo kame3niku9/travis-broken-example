@@ -1,6 +1,5 @@
 language: php
-php:
-  - 5.5
-  - 5.4
-  - hhvm
-script: phpunit Test.php
+python:
+  - 3.6
+  - 3.7
+script: pytest test_app.py
