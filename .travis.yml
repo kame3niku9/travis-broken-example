@@ -2,4 +2,6 @@ language: php
 python:
   - 3.6
   - 3.7
+install:
+  - pip install pytest
 script: pytest test_app.py
